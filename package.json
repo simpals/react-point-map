@@ -1,5 +1,5 @@
 {
-  "name": "react-point-map",
+  "name": "@simpals-dev/react-point-map",
   "version": "0.9.4",
   "description": "Base Point.Map component",
   "repository": {
