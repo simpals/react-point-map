@@ -7,14 +7,19 @@ import { Map as LeafletMap } from 'react-leaflet-universal';
 import leafletCSSBase64 from 'leaflet/dist/leaflet.css';
 import TileLayer from './TileLayer';
 
+type LatLng = {
+  lat: number,
+  lng: number,
+};
+
 type Props = {
   width?: string,
   height?: string,
   lat?: number,
   lng?: number,
   zoom?: number,
-  onMoveEnd?: (latLng: LatLng) => any,
-  onClick?: (latLng: LatLng) => any,
+  onMoveEnd?: () => any,
+  onClick?: () => any,
   children?: any,
 };
 
