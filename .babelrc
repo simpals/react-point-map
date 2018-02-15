@@ -1,0 +1,9 @@
+{
+  "presets": ["env", "react"],
+  "plugins": [
+    "transform-class-properties",
+    "inline-dotenv",
+    ["wrap-in-js", { "extensions": [".css"] }],
+    ["inline-import-data-uri", { "extensions": [".svg", ".css"] }]
+  ]
+}
