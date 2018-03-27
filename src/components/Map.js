@@ -47,6 +47,7 @@ const Map = (props: Props) => (
   >
     <link rel="stylesheet" href={leafletCSSBase64} />
     <LeafletMap
+      {...props}
       style={{
         width: props.width,
         height: props.height,
